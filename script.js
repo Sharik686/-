@@ -183,7 +183,6 @@ function handleAnswer(button) {
   const question = questions[currentQuestion].question;
   const userAnswer = button.dataset.value;
   const isCorrect = userAnswer === questions[currentQuestion].correct;
-  const userAnswerText = button.textContent;
 
   userAnswers.push({
     question: question,
